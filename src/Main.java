@@ -1,5 +1,4 @@
-import Reservas.Boda;
-import Reservas.Conferencia;
+import Reservas.*;
 import java.util.Scanner;
 import Reservas.Concierto;
 
