@@ -6,7 +6,7 @@ public class Cliente extends Reserva{
 
 
 
-    public Cliente (String cliente, int id,  int fecha, String Nombre , String email){
+    public Cliente (int cliente, int id,  int fecha, String Nombre , String email){
         super(cliente, id, fecha);
         this.Nombre=Nombre;
         this.email=email;

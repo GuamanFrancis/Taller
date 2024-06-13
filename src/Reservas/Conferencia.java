@@ -6,7 +6,7 @@ public class Conferencia extends Evento {
 
 
 
-    public Conferencia(String cliente, int id,  int fecha,String tipoEvento, double costoBase,double Serviciodecatering, double audiovisual){
+    public Conferencia(int cliente, int id,  int fecha,String tipoEvento, double costoBase,double Serviciodecatering, double audiovisual){
         super( cliente, id,   fecha, tipoEvento,  costoBase);
 
         this.audiovisual=audiovisual;

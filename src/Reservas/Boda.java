@@ -1,7 +1,7 @@
 package Reservas;
 
 public class Boda extends Evento {
-    public Boda(String cliente, int id, int fecha, String tipoEvento, double costoBase) {
+    public Boda(int cliente, int id, int fecha, String tipoEvento, double costoBase) {
         super(cliente, id, fecha, tipoEvento, costoBase);
     }
 
@@ -12,6 +12,7 @@ public class Boda extends Evento {
         System.out.println("Costo total de la boda: $2800");
     }
     int TotalCosto = 2800;
+    @Override
     public void calcularCosto(){
         super.calcularCostos();
         System.out.println("Es un tipo de evento de caracarter: "+getTipoEvento());

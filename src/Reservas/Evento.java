@@ -5,7 +5,7 @@ public class Evento extends Reserva{
     private double costoBase;
 
 
-    public Evento(String cliente, int id,  int fecha,String tipoEvento, double costoBase){
+    public Evento(int cliente, int id,  int fecha,String tipoEvento, double costoBase){
         super(cliente, id , fecha);
         this.tipoEvento=tipoEvento;
         this.costoBase=costoBase;

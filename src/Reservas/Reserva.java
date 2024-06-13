@@ -1,12 +1,12 @@
 package Reservas;
 
 public class Reserva {
-    private String cliente;
+    private int cliente;
     private int id;
     private int fecha;
 
 
-    public Reserva (String cliente, int id,  int fecha){
+    public Reserva (int cliente, int id,  int fecha){
         this.cliente=cliente;
         this.id=id;
         this.fecha=fecha;
@@ -16,7 +16,7 @@ public class Reserva {
     }
 
 
-    public String getCliente() {
+    public int getCliente() {
         return cliente;
     }
 
