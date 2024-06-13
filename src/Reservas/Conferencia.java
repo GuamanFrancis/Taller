@@ -29,9 +29,9 @@ public class Conferencia extends Evento {
     public void calcularCostos(int op){
         super.calcularCostos();
         System.out.println("Tipo de reserva: "+getTipoEvento());
-        System.out.println("Costo base de la reserva es de: "+getCostoBase());
+
         if (op ==1){
-            System.out.println("Costo base de la reserva "+getTipoEvento()+"+ el servicio de catering "+getServiciodecatering()+" es de:");
+            System.out.println("Costo base de la reserva "+getTipoEvento()+" + el servicio de catering "+getServiciodecatering()+" es de:");
             System.out.println("total ="+(getCostoBase()+getServiciodecatering()));
 
         }else if (op==2){
@@ -41,7 +41,7 @@ public class Conferencia extends Evento {
         } else if (op==3){
 
             System.out.println("Costo base de la reserva + el cargo audivisual + el cargo de catering es de: "+(getCostoBase()+getCostoBase()+getServiciodecatering()));
-        }
+        }else {System.out.println("Costo base de la reserva es de: "+getCostoBase());}
 
 
     }

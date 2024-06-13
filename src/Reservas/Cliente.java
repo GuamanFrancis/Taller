@@ -12,6 +12,10 @@ public class Cliente extends Reserva{
         this.email=email;
     }
 
+    public  void DatosCliente(){
+
+    }
+
 
 
 }
