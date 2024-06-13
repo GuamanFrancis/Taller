@@ -13,7 +13,13 @@ public class Cliente extends Reserva{
     }
 
     public  void DatosCliente(){
-
+        System.out.println("--------------------------------");
+        System.out.println("     Reporte ");
+        System.out.println("Nombre cliente: "+getCliente());
+        System.out.println("ID de la reserva: "+getId());
+        System.out.println("fecha de la reserva:  "+getFecha());
+        System.out.println("Nombre del cliente: "+Nombre);
+        System.out.println("email del cliente: "+email);
     }
 
 
