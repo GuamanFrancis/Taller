@@ -8,6 +8,7 @@ public class Main {
         Conferencia con1 =new Conferencia(1755991615,1000, 10202024,"Conferencia",1000,200,100);
         Boda boda1 =new Boda(1755991615,1000, 10202024,"boda",2000);
         Concierto concierto1 = new Concierto(1755991615,1000,13062024,"Concierto",4000);
+        Cliente cl1 = new Cliente(1709876543,1000,8082024,"Francis","pepito@gmail.com");
 
         int op2;
 
@@ -47,7 +48,7 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("Has seleccionado la Opción 4.");
-                    // Agrega aquí la lógica para la Opción 4
+                    cl1.DatosCliente();
                     break;
                 case 5:
                     System.out.println("Saliendo del programa. ¡Hasta luego!");
